@@ -13,6 +13,11 @@
 		004187842840A9A500A74164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004187822840A9A500A74164 /* Main.storyboard */; };
 		004187862840A9A600A74164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004187852840A9A600A74164 /* Assets.xcassets */; };
 		004187892840A9A600A74164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004187872840A9A600A74164 /* LaunchScreen.storyboard */; };
+		004187922840A9F300A74164 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004187902840A9F300A74164 /* NoticeViewController.swift */; };
+		004187932840A9F300A74164 /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004187912840A9F300A74164 /* NoticeViewController.xib */; };
+		004187952841F12800A74164 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 004187942841F12800A74164 /* GoogleService-Info.plist */; };
+		004187972841F47E00A74164 /* RemoteConfigDefualts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 004187962841F47E00A74164 /* RemoteConfigDefualts.plist */; };
+		8E8271E12899A4406CE38A0D /* Pods_Notice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7DFE7C88BAAA44F993D289 /* Pods_Notice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,13 @@
 		004187852840A9A600A74164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		004187882840A9A600A74164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0041878A2840A9A600A74164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004187902840A9F300A74164 /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		004187912840A9F300A74164 /* NoticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
+		004187942841F12800A74164 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		004187962841F47E00A74164 /* RemoteConfigDefualts.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefualts.plist; sourceTree = "<group>"; };
+		0B878F9421BAA82AC0D04746 /* Pods-Notice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notice.release.xcconfig"; path = "Target Support Files/Pods-Notice/Pods-Notice.release.xcconfig"; sourceTree = "<group>"; };
+		1EBA526277B16F94F2EFE363 /* Pods-Notice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notice.debug.xcconfig"; path = "Target Support Files/Pods-Notice/Pods-Notice.debug.xcconfig"; sourceTree = "<group>"; };
+		6F7DFE7C88BAAA44F993D289 /* Pods_Notice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8271E12899A4406CE38A0D /* Pods_Notice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				0041877B2840A9A500A74164 /* Notice */,
 				0041877A2840A9A500A74164 /* Products */,
+				C436C3395460261F59F70D32 /* Pods */,
+				BDADB6F8FC96501112958E7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +74,33 @@
 				0041877C2840A9A500A74164 /* AppDelegate.swift */,
 				0041877E2840A9A500A74164 /* SceneDelegate.swift */,
 				004187802840A9A500A74164 /* ViewController.swift */,
+				004187962841F47E00A74164 /* RemoteConfigDefualts.plist */,
+				004187902840A9F300A74164 /* NoticeViewController.swift */,
+				004187912840A9F300A74164 /* NoticeViewController.xib */,
 				004187822840A9A500A74164 /* Main.storyboard */,
 				004187852840A9A600A74164 /* Assets.xcassets */,
 				004187872840A9A600A74164 /* LaunchScreen.storyboard */,
 				0041878A2840A9A600A74164 /* Info.plist */,
+				004187942841F12800A74164 /* GoogleService-Info.plist */,
 			);
 			path = Notice;
+			sourceTree = "<group>";
+		};
+		BDADB6F8FC96501112958E7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F7DFE7C88BAAA44F993D289 /* Pods_Notice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C436C3395460261F59F70D32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EBA526277B16F94F2EFE363 /* Pods-Notice.debug.xcconfig */,
+				0B878F9421BAA82AC0D04746 /* Pods-Notice.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0041878D2840A9A600A74164 /* Build configuration list for PBXNativeTarget "Notice" */;
 			buildPhases = (
+				F0F2694F59125936EE2FAB08 /* [CP] Check Pods Manifest.lock */,
 				004187752840A9A500A74164 /* Sources */,
 				004187762840A9A500A74164 /* Frameworks */,
 				004187772840A9A500A74164 /* Resources */,
+				6F7473FBB450FD22422CC09F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +163,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004187972841F47E00A74164 /* RemoteConfigDefualts.plist in Resources */,
 				004187892840A9A600A74164 /* LaunchScreen.storyboard in Resources */,
 				004187862840A9A600A74164 /* Assets.xcassets in Resources */,
+				004187952841F12800A74164 /* GoogleService-Info.plist in Resources */,
+				004187932840A9F300A74164 /* NoticeViewController.xib in Resources */,
 				004187842840A9A500A74164 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F7473FBB450FD22422CC09F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Notice/Pods-Notice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Notice/Pods-Notice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Notice/Pods-Notice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F2694F59125936EE2FAB08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Notice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		004187752840A9A500A74164 /* Sources */ = {
@@ -140,6 +223,7 @@
 			files = (
 				004187812840A9A500A74164 /* ViewController.swift in Sources */,
 				0041877D2840A9A500A74164 /* AppDelegate.swift in Sources */,
+				004187922840A9F300A74164 /* NoticeViewController.swift in Sources */,
 				0041877F2840A9A500A74164 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +368,7 @@
 		};
 		0041878E2840A9A600A74164 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBA526277B16F94F2EFE363 /* Pods-Notice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +380,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +392,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0041878F2840A9A600A74164 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B878F9421BAA82AC0D04746 /* Pods-Notice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +410,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +422,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
